@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Business_Tablate.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button"> Mairelle's Gourmet Catering</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="frog" src="friedfrog.jpg" alt="Fried Frog" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="food2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Mairelle's Gourmet Catering</h1><br>
+      <h5 class="w3-center">Elevating Kobe Beef since 2003</h5>
+      <p class="w3-large">Founded in Philippines in 2003, Mairelle's Gourmet Catering is synonymous with culinary sophistication and excellence. 
+        Chef Mairelle Tablate, a pioneer in gourmet cuisine, is renowned for her mastery in crafting exquisite dishes centered around the legendary Kobe beef. 
+        With a commitment to culinary artistry, Mairelle's Gourmet Catering delivers an unparalleled dining experience,
+        showcasing the finest Kobe beef steaks to tantalize the most discerning palates.<span class="w3-tag w3-light-grey">Seasonal</span> Selections:</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Seasonal Selections:
+        Chef Mairelle sources only the highest quality Kobe beef, renowned for its exceptional marbling and unparalleled tenderness. 
+        Each dish is meticulously prepared to highlight the natural flavors of the beef, creating an unforgettable gastronomic journey. Complemented by seasonal ingredients and expertly paired flavors, Mairelle's Kobe beef steaks are a celebration of culinary excellence.</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Best Sellers</h1><br>
+      <h4>Filet Mignon</h4>
+      <p class="w3-text-grey">A tender and lean cut from the tenderloin, known for its buttery texture and mild flavor. = Php 2500.00 per serving</p><br>
+
+      <h4>Ribeye Steak</h4>
+      <p class="w3-text-grey">A flavorful and marbled cut from the rib section, known for its rich and juicy taste. = Php 3500.00 per serving</p><br>
+
+      <h4>T-bone Steak</h4>
+      <p class="w3-text-grey">A cut that includes a T-shaped bone with meat on both sides, featuring both the tenderloin and the strip steak. = Php 1800.00 per serving</p><br>
+
+      <h4>Sirloin Steak</h4>
+      <p class="w3-text-grey">A flavorful cut from the sirloin, known for its balance of tenderness and beefy flavor. = Php 2300.00 per serving</p><br>
+
+      <h4>Flat Iron Steak</h4>
+      <p class="w3-text-grey">A tender and well-marbled cut from the shoulder, known for its rich flavor. = Php 1950.00 per serving</p>    
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <img src="food1.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>Mairelle's Gourmet Catering offers full-service catering for any event, specializing in Kobe beef steaks that satisfy the highest standards of taste and presentation. 
+      Our culinary expertise and commitment to excellence ensure an unforgettable dining experience for your guests.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Contact us at Catering Service, Block 3, Lot 8 8, Carolina, Ramonal, Philippines.</b></p>
+    <p>You can also reach us by phone at 123-2323 or email us at mairellesgourmetcatering@catering.com.
+       Let us elevate your event with our exceptional cuisine.
+    </p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
